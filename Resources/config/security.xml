@@ -8,7 +8,7 @@
         <parameter key="security.authentication.listener.facebook.class">Bundle\FacebookBundle\Security\Firewall\FacebookListener</parameter>
         <parameter key="facebook.appId"></parameter>
         <parameter key="facebook.secret"></parameter>
-        <parameter key="facebook.cookie">false</parameter>
+        <parameter key="facebook.cookie">true</parameter>
         <parameter key="facebook.sdk.file">%kernel.root_dir%/../src/vendor/facebook-php-sdk/src/facebook.php</parameter>
     </parameters>
 

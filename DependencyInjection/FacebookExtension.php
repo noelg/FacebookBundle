@@ -31,7 +31,7 @@ class FacebookExtension extends Extension
         }
         
         if (isset($config['secret'])) {
-            $container->setParameter('facebook.appId', $config['secret']);
+            $container->setParameter('facebook.secret', $config['secret']);
         }
         
         if (isset($config['cookie'])) {
