@@ -37,6 +37,10 @@ class FacebookExtension extends Extension
         if (isset($config['cookie'])) {
             $container->setParameter('facebook.cookie', $config['cookie']);
         }
+
+        if (isset($config['file'])) {
+            $container->setParameter('facebook.sdk.file', $config['file']);
+        }
     }
 
     /**

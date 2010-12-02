@@ -2,6 +2,19 @@ How to use this bundle
 ----------------------
 
 
+Requirements
+============
+
+To use this bundle, you need the facebook php sdk:
+
+For instance, add it as a submodule:
+
+::
+
+    git submodule add git://github.com/facebook/php-sdk src/vendor/facebook-php-sdk
+
+
+
 Configuration
 =============
 
@@ -11,6 +24,9 @@ Configuration
     facebook.config:
         appId:  YOUR_APP_ID
         secret: YOUR_API_SECRET
+
+        #optional
+        file:   /path/to/sdk/facebook.php
 
     security.config:
         providers:
