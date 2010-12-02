@@ -25,5 +25,10 @@
                 <argument key="cookie">%facebook.cookie%</argument>
             </argument>
         </service>
+        
+        <service id="facebook.twig" class="Bundle\FacebookBundle\Extension\FacebookExtension">
+            <argument key="appId">%facebook.appId%</argument>
+            <tag name="twig.extension" />
+        </service>
     </services>
 </container>
